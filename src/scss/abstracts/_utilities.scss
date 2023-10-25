@@ -23,3 +23,22 @@
     color: $ny-gray;
   }
 }
+
+.ny-btn{
+  &.gray-bg{
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: $ny-gray;
+    float: left;
+    box-shadow: 0 0 1px $ny-milk;
+    transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: $ny-milk;
+
+    &:hover{
+      transform: scale(1.1);
+      background: $ny-gray-lg;
+      text-decoration: none;
+    }
+  }
+}

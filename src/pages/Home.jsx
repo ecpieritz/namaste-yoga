@@ -1,10 +1,11 @@
 import React from 'react'
+import Banner from '../components/Home/Banner'
 
 function Home() {
   return (
-    <>
-      <h1 className='mt-5'>Home</h1>
-    </>
+    <main className='ny-home'>
+      <Banner />
+    </ main>
   )
 }
 

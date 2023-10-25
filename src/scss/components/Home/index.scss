@@ -1,0 +1,32 @@
+.ny-home{
+  &__banner{
+    background-image: url("../../../assets/img/ny-home__banner__bg.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+
+    &__text{
+      padding-top: 60px;
+
+      @media(max-width: 768px){
+        padding-top: 0;
+      }
+    }
+    &__img{
+      img{
+        width: 100%;
+      }
+
+      @media(max-width: 468px){
+        margin-bottom: 40px;
+      }
+    }
+
+    @media(max-width: 468px){
+      background-size: 60% 100%;
+      .row{
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
