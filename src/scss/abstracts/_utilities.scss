@@ -41,4 +41,34 @@
       text-decoration: none;
     }
   }
+  &.beige-bg{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: $ny-beige;
+    float: left;
+    box-shadow: 0 0 1px $ny-milk;
+    transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: $ny-milk;
+    font-size: 14px;
+
+    &:hover{
+      transform: scale(1.1);
+      background: $ny-beige-dk;
+      text-decoration: none;
+    }
+  }
+  &.arrow-btn{
+    background-color: $ny-milk;
+    color: $ny-gray;
+    padding: 10px;
+    border-radius: 8px;
+    svg{
+      width: 15px;
+      height: 15px;
+    }
+    &:hover{
+      background-color: $ny-beige;
+    }
+  }
 }

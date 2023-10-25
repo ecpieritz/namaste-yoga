@@ -29,4 +29,32 @@
       }
     }
   }
+
+  &__learn{
+    padding: 100px 0;
+    background-color: $ny-gray;
+    color: $ny-milk;
+
+    &__text{
+      h2{
+        margin-bottom: 35px;
+      }
+
+      p{
+        width: 75%;
+        margin-bottom: 60px;
+      }
+    }
+    &__carousel{
+      &__item{
+        .card{
+          border: none;
+          background-color: $ny-gray;
+          .card-body{
+            padding: 20px 0;
+          }
+        }
+      }
+    }
+  }
 }
