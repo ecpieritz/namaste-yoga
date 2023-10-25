@@ -1,0 +1,25 @@
+@import './variables';
+
+.ny-bg{
+  &__beige{
+    background-color: $ny-beige;
+  }
+  &__milk{
+    background-color: $ny-milk;
+  }
+  &__gray{
+    background-color: $ny-gray;
+  }
+}
+
+.ny-text{
+  &__beige{
+    color: $ny-beige;
+  }
+  &__milk{
+    color: $ny-milk;
+  }
+  &__gray{
+    color: $ny-gray;
+  }
+}

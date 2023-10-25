@@ -1,0 +1,40 @@
+.ny-navbar{
+  border-bottom: 4px solid $ny-beige;
+  .navbar{
+    padding: 20px 0;
+    .navbar-toggler{
+      padding: 10px;
+      border: 1px solid $ny-beige-dk;
+      svg{
+        width: 25px;
+        height: 25px;
+        color: $ny-beige-dk;
+      }
+
+      &.collapsed{
+        border-color: $ny-beige;
+        svg{
+          color: $ny-beige;
+        }
+      }
+
+      &:hover{
+        border-color: $ny-beige-dk;
+        svg{
+          color: $ny-beige-dk;
+        }
+      }
+    }
+  }
+
+  &__links{
+    a{
+      color: $ny-gray;
+
+      &:hover{
+        text-decoration: none;
+        color: $ny-beige;
+      }
+    }
+  }
+}
