@@ -1,6 +1,6 @@
 .ny-home{
   &__banner{
-    background-image: url("../../../assets/img/ny-home__banner__bg.png");
+    background-image: url("../../../assets/img/ny-beige__bg.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 40% 100%;
@@ -55,6 +55,31 @@
           }
         }
       }
+    }
+  }
+  
+  &__about{
+    padding: 100px 0;
+    background-image: url("../../../assets/img/ny-beige__bg.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 35% 100%;
+
+    &__img{
+      img{
+        width: 100%;
+      }
+    }
+
+    &__text{
+      padding-left: 40px;
+      p{
+        margin: 20px 0 40px;
+      }
+    }
+    
+    @media(max-width: 468px){
+      background-size: 60% 100%;
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import banner from '../../assets/img/ny-home__banner.png'
 
-function Banner() {
+function HomeBanner() {
   return (
     <div className='ny-home__banner'>
       <div className="container-fluid">
@@ -20,4 +20,4 @@ function Banner() {
   )
 }
 
-export default Banner
+export default HomeBanner

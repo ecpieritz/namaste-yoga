@@ -1,12 +1,14 @@
 import React from 'react'
-import Banner from '../components/Home/Banner'
-import Learn from '../components/Home/Learn'
+import HomeBanner from '../components/Home/HomeBanner'
+import HomeLearn from '../components/Home/HomeLearn'
+import HomeAbout from '../components/Home/HomeAbout'
 
 function Home() {
   return (
     <main className='ny-home'>
-      <Banner />
-      <Learn />
+      <HomeBanner />
+      <HomeLearn />
+      <HomeAbout />
     </ main>
   )
 }

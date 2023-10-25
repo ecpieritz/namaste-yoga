@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from './Carousel'
 
-function Learn() {
+function HomeLearn() {
   return (
     <section className='ny-home__learn'>
       <div className="container-fluid">
@@ -17,4 +17,4 @@ function Learn() {
   )
 }
 
-export default Learn
+export default HomeLearn
