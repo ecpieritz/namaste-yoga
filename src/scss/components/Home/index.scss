@@ -171,5 +171,14 @@
         float: right;
       }
     }
+
+    &__img{
+      img{
+        position: relative;
+        top: 0;
+        margin-top: -750px;
+        width: 80%;
+      }
+    }
   }
 }

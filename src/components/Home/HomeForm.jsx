@@ -1,9 +1,14 @@
 import React from "react";
+import formImg from '../../assets/img/ny-home__form__img.png'
 
 function HomeForm() {
   return (
     <section className="ny-home__form">
       <div className="container-fluid">
+      <div className="ny-home__form__img">
+          <img src={formImg} alt="" />
+        </div>
+
         <h2>
           Contact us to
           <br />
