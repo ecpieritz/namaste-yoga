@@ -5,6 +5,7 @@ import HomeAbout from '../components/Home/HomeAbout'
 import HomeStartJourney from '../components/Home/HomeStartJourney'
 import HomeDiscover from '../components/Home/HomeDiscover'
 import HomeExplore from '../components/Home/HomeExplore'
+import HomeForm from '../components/Home/HomeForm'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <HomeStartJourney />
       <HomeDiscover />
       <HomeExplore />
+      <HomeForm />
     </ main>
   )
 }
