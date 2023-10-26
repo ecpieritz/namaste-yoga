@@ -110,4 +110,24 @@
       }
     }
   }
+
+  &__discover{
+    padding: 100px 0;
+    background-color: $ny-gray;
+    color: $ny-milk;
+
+    .container-fluid{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .ny-btn{
+        margin: auto;
+        width: fit-content;
+        margin-top: 40px;
+        padding: 20px 60px;
+        font-size: 20px;
+      }
+    }
+  }
 }
