@@ -130,4 +130,46 @@
       }
     }
   }
+
+  &__explore{
+    padding: 100px 0 380px;
+    .container-fluid{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      p{
+        width: 50%;
+        margin: 25px auto 40px;
+      }
+      .ny-btn{
+        margin: auto;
+        width: fit-content;
+        padding: 20px 60px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__form{
+    padding: 380px 0 100px;
+    background-color: $ny-gray;
+    color: $ny-milk;
+    text-align: center;
+
+    &__div{
+      max-width: 800px;
+      margin: 40px auto 0;
+
+      #inputMessage{
+        height: 300px;
+      }
+
+      .ny-btn{
+        margin: auto;
+        width: fit-content;
+        float: right;
+      }
+    }
+  }
 }
