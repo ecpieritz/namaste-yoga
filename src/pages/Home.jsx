@@ -4,6 +4,7 @@ import HomeLearn from '../components/Home/HomeLearn'
 import HomeAbout from '../components/Home/HomeAbout'
 import HomeStartJourney from '../components/Home/HomeStartJourney'
 import HomeDiscover from '../components/Home/HomeDiscover'
+import HomeExplore from '../components/Home/HomeExplore'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HomeAbout />
       <HomeStartJourney />
       <HomeDiscover />
+      <HomeExplore />
     </ main>
   )
 }
