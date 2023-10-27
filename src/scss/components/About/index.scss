@@ -29,4 +29,33 @@
       }
     }
   }
+
+  &__us{
+    padding: 100px 0 100px;
+    background-image: url("../../../assets/img/ny-beige__bg.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 30% 100%;
+    border-top: 5px solid $ny-beige;
+    &__text{
+      padding-right: 40px;
+      p{
+        margin: 10px 0 0;
+      }
+    }
+
+    &__img{
+      img{
+        width: 100%;
+        margin-bottom: 25px;
+      }
+    }
+
+    @media(max-width: 468px){
+      background-size: 40% 100%;
+      .row{
+        flex-direction: column-reverse;
+      }
+    }
+  }
 }
