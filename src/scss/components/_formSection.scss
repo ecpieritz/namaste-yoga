@@ -1,0 +1,22 @@
+.ny-form-section{
+  padding: 100px 0;
+  background-color: $ny-gray;
+  color: $ny-milk;
+  text-align: center;
+
+  &__div{
+    max-width: 800px;
+    margin: 40px auto 0;
+    text-align: left;
+
+    #inputMessage{
+      height: 300px;
+    }
+
+    .ny-btn{
+      margin: auto;
+      width: fit-content;
+      float: right;
+    }
+  }
+}
