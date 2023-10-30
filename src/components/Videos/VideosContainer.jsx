@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import VideosItem from "./VideosItem";
 
-function VideosContainer() {
+function VideosContainer({ videos }) {
   return (
-    <section className='ny-videos__container'>
-      <div className="container-fluid">
-        videos
-      </div>
-    </section>
-  )
+    <div className="row">
+      {videos.map((video) => (
+        <VideosItem key={video.id.videoId} video={video} />
+      ))}
+    </div>
+  );
 }
 
-export default VideosContainer
+export default VideosContainer;
