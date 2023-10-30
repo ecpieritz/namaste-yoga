@@ -25,6 +25,7 @@
     @media(max-width: 468px){
       background-size: 60% 100%;
       .row{
+        display: flex;
         flex-direction: column-reverse;
       }
     }
@@ -44,6 +45,12 @@
         width: 75%;
         margin-bottom: 60px;
       }
+
+      @media(max-width: 468px){
+        p{
+          margin-bottom: 0;
+        }
+      }
     }
     &__carousel{
       &__item{
@@ -55,7 +62,11 @@
           }
         }
       }
+      @media(max-width: 468px){
+        display: none;
+      }
     }
+
   }
   
   &__about{
@@ -68,6 +79,10 @@
     &__img{
       img{
         width: 100%;
+      }
+
+      @media(max-width: 468px){
+        margin-bottom: 40px;
       }
     }
 
@@ -94,6 +109,15 @@
       padding: 80px 0 0;
       p{
         margin: 25px 0 40px;
+      }
+
+      @media(max-width: 468px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ny-btn{
+          margin: auto auto 80px;
+        }
       }
     }
 
@@ -149,6 +173,10 @@
         font-size: 20px;
       }
     }
+
+    @media(max-width: 468px){
+      padding: 100px 0 150px;
+    }
   }
 
   &__form{
@@ -180,6 +208,15 @@
         margin-top: -750px;
         width: 80%;
       }
+      @media(max-width: 468px){
+        img{
+          margin-top: -320px;
+        }
+      }
+    }
+
+    @media(max-width: 468px){
+      padding: 150px 0 100px;
     }
   }
 }

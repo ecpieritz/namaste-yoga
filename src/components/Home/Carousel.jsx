@@ -32,7 +32,7 @@ function Carousel() {
           <div class="carousel-inner">
             <div class="ny-home__learn__carousel__item carousel-item active">
               <div class="row">
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-sm-12 mb-3">
                   <div class="card">
                     <iframe
                       width="100%"
@@ -49,7 +49,7 @@ function Carousel() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-sm-12 mb-3">
                   <div class="card">
                     <iframe
                       width="100%"
@@ -66,7 +66,7 @@ function Carousel() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-sm-12 mb-3">
                   <div class="card">
                     <iframe
                       width="100%"
@@ -87,7 +87,7 @@ function Carousel() {
             </div>
             <div class="ny-home__learn__carousel__item carousel-item">
               <div class="row">
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-sm-12 mb-3">
                   <div class="card">
                     <iframe
                       width="100%"
@@ -104,7 +104,7 @@ function Carousel() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-sm-12 mb-3">
                   <div class="card">
                     <iframe
                       width="100%"
@@ -121,7 +121,7 @@ function Carousel() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-sm-12 mb-3">
                   <div class="card">
                     <iframe
                       width="100%"
