@@ -49,6 +49,10 @@
         width: 100%;
         margin-bottom: 25px;
       }
+
+      @media(max-width: 468px){
+        display: none;
+      }
     }
 
     @media(max-width: 468px){
@@ -81,12 +85,17 @@
       p, h4{
         margin: 0;
       }
+
     }
 
     @media(max-width: 468px){
       background-size: 40% 100%;
       .row{
         flex-direction: column-reverse;
+
+        .col-md-6{
+          margin-top: 40px;
+        }
       }
     }
   }

@@ -9,12 +9,12 @@ function AboutHistory() {
         <div className="row">
           <div className="col-md-5 ny-about__history__img">
             <div className="row">
-              <div className="col-6">
+              <div className="col-md-6">
                 <img src={img01} alt="" />
                 <h4>Maria Silva</h4>
                 <p><i>CEO & Instructor</i></p>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <img src={img02} alt="" />
                 <h4>Julia Matsunada</h4>
                 <p><i>Instructor</i></p>
