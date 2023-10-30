@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "700" height = "auto">
-  <img src = "x" width = "350" height = "auto">
-  <img src = "x" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/namaste-yoga/24cc5948975eeedb63433d41452687df84852eb0/public/ny-print__01.png" width = "700" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/namaste-yoga/24cc5948975eeedb63433d41452687df84852eb0/public/ny-print__02.png" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/namaste-yoga/24cc5948975eeedb63433d41452687df84852eb0/public/ny-print__03.png" width = "350" height = "auto">
 </p>
 
 ## 📖 About
@@ -16,6 +16,8 @@
 - HTML
 - React
   - Router
+- Axios
+- Youtube API v3
 - SCSS
 - Bootstrap
 - Javascript
