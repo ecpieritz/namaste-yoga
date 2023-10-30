@@ -8,6 +8,11 @@
     img{
       width: 100px;
     }
+    @media(max-width: 468px){
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
   }
 
   &__text{
@@ -31,6 +36,12 @@
       &:hover{
         color: $ny-beige-dk;
       }
+    }
+
+    @media(max-width: 468px){
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
     }
   }
 
