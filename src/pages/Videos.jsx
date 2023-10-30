@@ -1,9 +1,10 @@
 import React from 'react'
+import VideosBanner from '../components/Videos/VideosBanner'
 
 function Videos() {
   return (
     <>
-      <h1 >Videos</h1>
+      <VideosBanner />
     </>
   )
 }
