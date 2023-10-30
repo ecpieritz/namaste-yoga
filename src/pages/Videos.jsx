@@ -1,12 +1,12 @@
 import React from 'react'
 import VideosBanner from '../components/Videos/VideosBanner'
-import VideosContainer from '../components/Videos/VideosContainer'
+import VideosList from '../components/Videos/VideosList'
 
 function Videos() {
   return (
     <>
       <VideosBanner />
-      <VideosContainer />
+      <VideosList />
     </>
   )
 }
